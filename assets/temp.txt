@@ -1,0 +1,2 @@
+images are located in Google Cloud Storage.  Look for favicon files there.  Check AWS S3 as well, in case of missing files.
+
