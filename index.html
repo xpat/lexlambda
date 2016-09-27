@@ -49,5 +49,27 @@ body {
 
 </head>
 <body>
+<table border="0" bgcolor="#336699">
+<script language="javascript"><!--
+function rldictionaryform()
+{
+phrase = document.rldiction.typed.value.split(" ")
+phrase = phrase.join("+")
+rlditionary = window.open('http://dictionary.law.com/Default.aspx?typed=' + phrase + '&type=1','_dictionary');
+document.rldiction.typed.focus();
+return (false);
+}
+//-->
+</script>
+<tr><td>
+<img src="http://dictionary.law.com/img/lawcom_diction_topform.gif"  width="150" height="40"></td></tr>
+<tr><td align="center">
+<form onsubmit="return rldictionaryform()" name="rldiction">
+<input type="text" name="typed"><br>
+<input type="image" src="http://dictionary.law.com/img/look_up_button3.gif" width="114" height="25" align="center" vspace="3" border=0>
+</form>
+</td></tr>
+</table>
+
 </body>
 </html>
