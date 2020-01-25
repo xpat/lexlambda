@@ -36,7 +36,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - images/profilepic2020.jpg
+    - images/SmokinGunORIG.webp
 
   fonts:
     - family: Pacifico
@@ -45,5 +45,8 @@ flutter:
     - family: Varela Round
       fonts:
         - asset: fonts/VarelaRound-Regular.ttf
+    - family: Source Sans Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
